@@ -19,6 +19,7 @@ original plaintext.
 5. Security: ECC’s security relies on the Elliptic Curve Discrete Logarithm Problem (ECDLP), making
 it highly secure with shorter key lengths compared to traditional methods like RSA.
 # Program:
+```
 from tinyec import registry
 import secrets
 def generate_public_key(private_key, curve):
@@ -43,6 +44,7 @@ print("\nThe shared secret key has been successfully established!")
 else:
 print("\nError: The shared secrets do not match.")
 ecc_diffie_hellman()
+```
 # Output:
 ![image](https://github.com/user-attachments/assets/d4d550e8-e5f2-4514-b0d9-2f42ab4661c8)
 
